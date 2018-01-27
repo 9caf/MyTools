@@ -1,0 +1,7 @@
+#!/bin/bash
+
+. venv/bin/activate 
+
+ssserver -c shadowsocks.json -d stop
+
+

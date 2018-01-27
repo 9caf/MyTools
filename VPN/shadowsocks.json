@@ -1,0 +1,12 @@
+{
+    "server":"0.0.0.0",
+    "local_port":1080,
+    "port_password": {
+	"18126": "user18126",
+	"18127": "user18127",
+	"18128": "user18128",
+	"15420": "xuchao5201314"
+    },
+    "timeout":300,
+    "method":"rc4-md5"
+}
