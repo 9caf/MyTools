@@ -1,3 +1,9 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'https://github.com/vim-scripts/molokai.git'
+
+call plug#end()
+
 set nocompatible
 set cursorline
 set ruler 
@@ -13,7 +19,7 @@ set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,latin1
 set fileencoding=chinese 
 syntax on
 filetype plugin indent on
-colorscheme molokai
+filetype plugin on
 set nu
 set t_Co=256
 set autochdir
@@ -22,4 +28,8 @@ set ignorecase smartcase
 set nowrapscan
 set incsearch
 set hlsearch
+set showmode
+set nofoldenable
 
+let g:molokai_original = 1
+colorscheme molokai
