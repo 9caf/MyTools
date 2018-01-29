@@ -103,5 +103,8 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-#shadowsocks
-shadowsocks.json
+# my setting 
+.netrwhist*
+
+# vim-plug
+plugged/
