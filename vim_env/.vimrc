@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'https://github.com/vim-scripts/molokai.git'
+Plug 'https://github.com/Valloric/YouCompleteMe.git'
 
 call plug#end()
 
@@ -33,3 +34,7 @@ set nofoldenable
 
 let g:molokai_original = 1
 colorscheme molokai
+
+let g:ycm_server_python_interpreter='/usr/bin/python'
+let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
+
